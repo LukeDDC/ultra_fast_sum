@@ -4,7 +4,7 @@ module Ultrafastsum
   class Error < StandardError; end
   extend SOMA_C
 
-  def self.soma(a, b)
+  def self.sum(a, b)
     soma_c(a, b)
   end
 end
